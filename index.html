@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🔥" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="./icons/note-icon.png" alt="icon" class="icon-img">
+      <p class="logo-title">NotePro</p>
+    </div>
+    <div class="wrapper">
+      <div class="sidebar">
+        <ul class="list-items">
+          <li class="list-item">
+            <img class="bulb-icon" src="./icons/bulb-icon.png" alt="note">
+            <p> Notes </p>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="sub-head">
+          <div class="form">
+            <input class="input title" type="text" name="title" id="" placeholder="Title">
+            <input class="input text" type="text" name="text" id="" placeholder="Take a note..." onfocus="showTitle()" >
+            <button class="inp-btn" type="submit" onclick="handleSubmit(event)"> Submit</button>
+          </div>
+        </div>
+        <div class="main">
+          <!-- <div class="card" data-id="">
+            <div class="card-content">
+              <p class="head">
+                Title
+              </p>
+              <p class="body">
+                Take a note...
+              </p>
+            </div>
+            <div class="card-actions">
+              <Button class="del-btn"><img class="delete-icon" src="./icons/delete-icon.svg" alt=""></Button>
+            </div>
+          </div>
+          <div class="card" data-id="">
+            <div class="card-content">
+              <p class="head">
+                Title
+              </p>
+              <p class="body">
+                Take a note...
+              </p>
+            </div>
+            <div class="card-actions">
+              <Button class="del-btn"><img class="delete-icon" src="./icons/delete-icon.svg" alt=""></Button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
